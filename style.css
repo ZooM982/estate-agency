@@ -138,6 +138,16 @@
 	width: 350px;
 	padding: 5px;
 }
+.best h1{
+  padding-left: 50px;
+}
+.best a{
+  margin-left: 70%;
+  margin-top: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: gray;
+}
 /*-- best agent section exit*/
 /*-- footer section*/
 footer a{
