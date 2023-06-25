@@ -177,3 +177,17 @@ footer .icon i{
 	margin-left: 25px;
 }
 /*-- footer section exit*/
+
+/*-- page contact--*/
+.icos i{
+  font-size: 40px;
+  margin-left: -40px;
+  margin-right: 10px;
+}
+.icos p{
+  margin-left: 15px;
+}
+.icor{
+  margin-left: 30px;
+  font-size: 20px;
+}
