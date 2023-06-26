@@ -1,4 +1,22 @@
+/*-- general--*/
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.bord{
+  border-left: 3px solid #2eca6a;
+}
+.breadcrumb a{
+  text-decoration: none;
+  color: gray;
+}
 /*-- navabar section---*/
+.navbar a{
+  font-size: 40px;
+  font-weight: bold;
+}
+.navbar span{
+  color: #2eca6a;
+}
 .nav-item .nav-link {
     position: relative;
     font-size: 25px;
