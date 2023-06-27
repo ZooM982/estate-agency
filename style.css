@@ -1,4 +1,12 @@
-/*-- navabar section---*/
+/*-- general--*/
+.bord{
+  border-left: 3px solid #2eca6a;
+}
+.breadcrumb a{
+  text-decoration: none;
+  color: gray;
+}
+/*-------------------------------------- navabar section-------------------------------------------------*/
 .nav-item .nav-link {
     position: relative;
     font-size: 25px;
@@ -73,8 +81,8 @@
     height: 400px;
   }
 }
-/*-- navabar section exit---*/
-/*-- services section---*/
+/*------------------------------- navabar section exit------------------------------------------------------*/
+/*------------------------------- services section----------------------------------------------------------*/
 .card{
 	border: none;
 }
@@ -95,9 +103,9 @@
 	text-decoration: none;
 	color: black;
 }
-/*-- services section exit---*/
+/*----------------------------------- services section exit-----------------------------------------------------*/
 
-/*-- latest property section---*/
+/*------------------------------------ latest property section--------------------------------------------------*/
 .property .carousel-inner {
   padding: 1em;
 }
@@ -140,8 +148,8 @@
     height: 100%;
   }
 }
-/*-- latest property section exit---*/
-/*-- best agent section*/
+/*----------------------------- latest property section exit------------------------------------------------*/
+/*----------------------------- best agent section----------------------------------------------------------*/
 .img-responsive{
 	height: 400px;
 	width: 350px;
@@ -157,8 +165,8 @@
   text-decoration: none;
   color: gray;
 }
-/*-- best agent section exit*/
-/*-- footer section*/
+/*------------------------------ best agent section exit----------------------------------------------------*/
+/*------------------------------ footer section-------------------------------------------------------------*/
 footer a{
 	text-decoration: none;
 	color: black;
@@ -176,9 +184,9 @@ footer .icon i{
 	font-size: 25px;
 	margin-left: 25px;
 }
-/*-- footer section exit*/
+/*------------------------------------- footer section exit------------------------------------------*/
 
-/*-- page contact--*/
+/*------------------------------------- page contact-------------------------------------------------*/
 .icos i{
   font-size: 40px;
   margin-left: -40px;
