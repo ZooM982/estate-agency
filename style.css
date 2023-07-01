@@ -209,3 +209,21 @@ footer .icon i{
   margin-left: 30px;
   font-size: 20px;
 }
+
+
+/*-- property single page--*/
+
+.nav a{
+  color: black;
+}
+.sous-text{
+  width: 25%;
+  height: 5px;
+  background-color: green;
+}
+.p-single i{
+  width: 50px;
+  margin-top: -10px;
+  margin-right: -10px;
+  padding: 5px;
+}
