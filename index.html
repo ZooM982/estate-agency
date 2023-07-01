@@ -14,8 +14,8 @@
 <!-- navbar section-->
 <section>
 	<nav class="navbar fixed-top navbar-trans navbar-expand-lg bg-body-tertiary p-4 fs-4 fw-bold">
-  		<div class="container-fluid">
-    		<a class="navbar-brand" href="#">Estate<span>Agency</span></a>
+  		<div class="container">
+    		<a class="navbar-brand" href="#">Estate<span style="color: #2eca6a;" >Agency</span></a>
     		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       			<span class="navbar-toggler-icon"></span>
     		</button>
@@ -91,7 +91,7 @@
 <!-- main section-->
 <main>
 <!-- services section-->
-<section id="services" class="p-5 mt-5">
+<section id="services" class="container p-5 mt-5">
 	<div class="row p-5">
 		<h1>Our services</h1>
 	</div>
@@ -154,24 +154,50 @@
 </section>
 <!-- services section exit-->
 <!-- latest property section-->
-<section id="latest-property" class="property">
-	<div class="best d-flex">
-		<h1>Latest Properties</h1>
-		<a href="property.html">All property  <i class="fa-solid fa-angle-right"></i></a>
+<section id="agent" class="container mt-5">
+	<div class=" container col-md-12 d-flex" style="justify-content: space-between;">
+		<div>
+			<h1>Lastest Properties</h1>
+		</div>
+		<div>
+			<a href="agent.html" class="align-self-end text-decoration-none" style="font-size: 20px; color: gray;">All property <i class="fa-solid fa-angle-right"></i></a>
+		</div>
 	</div>
-	<div class="container mt-5">
-	
+	<div class="container mt-5 ">
+		<div class="row ">
+			<div class="col-md-4 ">
+				<div class="p-3">
+					<div>
+						<img src="images/property-1.jpg" height="400" width="350">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="p-3">
+					<div>
+						<img src="images/property-2.jpg" height="400" width="350">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="p-3">
+					<div>
+						<img src="images/property-4.jpg" height="400" width="350">
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 <!-- latest property section exit-->
 <!-- best agent section-->
-<section id="agent">
-	<div class="best col-md-12 d-flex">
+<section id="agent" class="container mt-5">
+	<div class="best col-md-12 d-flex" style="justify-content: space-between;">
 		<div>
-			<h1>Best agent</h1>
+			<h1 class="p-0">Best agent</h1>
 		</div>
 		<div>
-			<a href="agent.html" class="align-self-end">All agent  <i class="fa-solid fa-angle-right"></i></a>
+			<a href="agent.html" class="justify-self-end">All agent  <i class="fa-solid fa-angle-right"></i></a>
 		</div>
 	</div>
 	<div class="container mt-5 ">
@@ -201,6 +227,92 @@
     </div>
 </section>
 <!-- best agent section exit-->
+<section id="agent" class="container mt-5">
+	<div class="best col-md-12 d-flex" style="justify-content: space-between;">
+		<div>
+			<h1 class="p-0">Latest News</h1>
+		</div>
+		<div>
+			<a href="agent.html" class="align-self-end">All news <i class="fa-solid fa-angle-right"></i></a>
+		</div>
+	</div>
+	<div class="container mt-5 ">
+		<div class="row ">
+			<div class="col-md-4 ">
+				<div class="md-p-3">
+					<div>
+						<img src="images/post-3.jpg" height="400" width="350">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="md-p-3">
+					<div>
+						<img src="images/post-4.jpg" height="400" width="350">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="md-p-3">
+					<div>
+						<img src="images/post-5.jpg" height="400" width="350">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!---------------------- Section Testimonials --------------------->
+<section class="container py-4">
+	<h1 class="py-3">Testimonials</h1>
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="" set data-bs-pause="false" >
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+				aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+				aria-label="Slide 2"></button>
+		</div>
+		<div class="slideshow1 carousel-inner" id="slideshow1">
+			<div class="slideshow carousel-item active" data-bs-interval="2000" id="slideshow">
+				<div class="slideshow1-img" id="slideshow1-img">
+					<img src="images/testimonial-1.jpg" class="d-block" alt="...">
+				</div>
+				<div class="slideshow1-part" id="slideshow1-part">
+					<div class="slideshow1-sous-part1" id="slideshow1-sous-part1">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing e. <br>
+							Lorem ipsum dolor sit amet, consectetur adipisc.
+						</p>
+					</div>
+					<div class="slideshow1-sous-part2" id="slideshow1-sous-part2">
+						<img src="images/testimonial-1.jpg" alt="...">
+						<h4>Albert & Erika</h4>
+					</div>
+				</div>
+			</div>
+			<!-- ----------------------------------------A décommenter -------------->
+			<!-- <div class="carousel-item" data-bs-interval="2000" id="slideshow2">
+				<div id="slideshow1-img2">
+					<img src="images/testimonial-2.jpg" class="d-block w-75" alt="...">
+				</div>
+				<div class="slideshow1-part2">
+					<div id="slideshow1-sous-part3">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing e. <br>
+							Lorem ipsum dolor sit amet, consectetur adipisc.
+						</p>
+					</div>
+					<div id="slideshow1-sous-part4">
+						<img src="images/testimonial-2.jpg" alt="...">
+						<h4>Albert & Erika</h4>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</div>
+</section>
+<!---------------------- Section Testimonials Exit --------------------->
+
 </main>
 <!-- main section exit-->
 <!-- footer section-->

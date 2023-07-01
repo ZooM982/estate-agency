@@ -266,3 +266,77 @@ footer .icon i{
   border-left: 2px solid #2eca6a;
   padding: 2%;
 }
+
+
+/*------------------------------- Slideshow Page d'Accueil --------------------------------------------------*/
+
+#slideshow{
+  display: flex;
+  justify-content: space-between;
+}
+
+#slideshow1{
+  width: 100%;
+}
+
+#slideshow1-img{
+  width: 100%;
+}
+
+#slideshow1-part{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: -130px;
+}
+
+#slideshow1-sous-part2{
+  display: flex;
+  align-items: center;
+}
+
+#slideshow1-sous-part2 h4{
+  font-size: 1rem;
+  margin-left: 15px;
+}
+
+#slideshow1-sous-part2 img{
+  width: 20%;
+  border-radius: 50%;
+  height: 70px;
+}
+
+#slideshow1-sous-part1>p:nth-child(1) {
+  background-color: rgba(128, 128, 128, 0.329);
+  padding: 1%;
+  font-size: 14px;
+  font-style: italic;
+  color: grey;
+}
+
+#slideshow1-sous-part1 {
+  margin-top: 45%;
+}
+
+
+@media (max-width: 767px){
+  #carouselExampleIndicators{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #slideshow{
+    flex-direction: column;
+  }
+
+  #slideshow1-img img{
+    width: 100%;
+  }
+  #slideshow1-part{
+    margin-left: 0;
+    width: 100%;
+  }
+  #slideshow1-sous-part1 {
+    margin-top: 15%;
+  }
+}
