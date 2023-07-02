@@ -213,7 +213,7 @@ footer .icon i{
 
 /*-- property single page--*/
 
-.nav a{
+.nav .nav-item a{
   color: black;
 }
 .sous-text{
