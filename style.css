@@ -210,6 +210,63 @@ footer .icon i{
   font-size: 20px;
 }
 
+/*--------------------------------------- Page About -------------------------------------------------*/
+
+.titre-section1{
+  border-left: solid 3px #2eca6a;
+  margin-top: 10%;
+  padding: 2%;
+}
+
+.section1{
+  position: relative;
+}
+
+.section2 {
+  margin: 10% 0;
+}
+
+.section1 .creation-estate{
+  width: 25%;
+}
+.creation-estate{
+  width: 25%;
+  padding: 2%;
+  position: absolute;
+  top: 70%;
+  left: 7%;
+  background-color: #2eca6a;
+}
+
+
+.creation-estate h3{
+  font-size: 2rem;
+}
+
+.creation-estate1 span{
+  color: gray;
+}
+
+
+.creation-estate1{
+  position: relative;
+}
+
+.creation-estate1 h4{
+  writing-mode: sideways-lr;
+  position: absolute;
+  height: 80%;
+  top: -46%;
+  right: 92%;
+  color: gray;
+  font-weight: bold;
+}
+
+@media (max-width: 767px){
+  .section1 .creation-estate {
+      width: 80%;
+    }
+}
 
 /*-- property single page--*/
 
