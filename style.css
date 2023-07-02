@@ -210,7 +210,6 @@ footer .icon i{
   font-size: 20px;
 }
 
-
 /*--------------------------------------- Page About -------------------------------------------------*/
 
 .titre-section1{
@@ -267,4 +266,21 @@ footer .icon i{
   .section1 .creation-estate {
       width: 80%;
     }
+}
+
+/*-- property single page--*/
+
+.nav .nav-item a{
+  color: black;
+}
+.sous-text{
+  width: 25%;
+  height: 5px;
+  background-color: green;
+}
+.p-single i{
+  width: 50px;
+  margin-top: -10px;
+  margin-right: -10px;
+  padding: 5px;
 }
