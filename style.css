@@ -434,6 +434,9 @@ footer .icon i{
   #slideshow1-sous-part1 {
     margin-top: 15%;
   }
+  #agent .agent-new{
+    display: none;
+  }
 }
 
 
