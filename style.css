@@ -6,11 +6,104 @@
   text-decoration: none;
   color: gray;
 }
+<<<<<<< HEAD
 /*-------------------------------------- navabar section-------------------------------------------------*/
+=======
+#carouselExampleAutoplaying .carousel-indicators .active{
+  background-color: #2eca6a;
+  width: 50px;
+}
+#carouselExampleAutoplaying .carousel-indicators button{
+  height: 10px;
+  width: 25px;
+}
+
+#agent .card{
+  transition: all 0.5s ease-in;
+  position: absolute;
+  bottom: 0px;
+  background-color: initial;
+  border: none;
+}
+
+#agent .card a{
+  color: white;
+  text-decoration: none;
+}
+
+#agent .card .price-box{
+  border: 1px solid #2eca6a;
+  border-radius: 100px;
+  width: 150px;
+}
+#agent .card .price-box .price{
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+}
+#agent .card .price-box .link-a{
+  font-size: 25px;
+}
+#agent .card .card-footer{
+  background-color: #2eca6a;
+  margin: 0;
+}
+
+#agent .card .card-footer h4{
+  font-size: 15px;
+}
+#agent .card .card-footer li{
+  margin: 9px;
+}
+
+/*-- navabar section---*/
+.navbar{
+  height: 100px;
+}
+a.navbar-brand{
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 70px;
+}
+.navbar span{
+  color: #2eca6a;
+}
+
+.recherche{
+  background-color: #2eca6a;
+  width: 50px;
+  height: 50px;
+} 
+.recherche i{
+  color: black;
+  font-size: 35px;
+  padding: 10px;
+  
+}
+#exampleModal .title-box i{
+  text-decoration: none;
+  font-size: 60px;
+}
+#exampleModal .sous-text{
+  width: 100px;
+}
+
+#exampleModal .title-box{
+  margin: 30px;
+}
+
+#exampleModal .btn{
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+}
+>>>>>>> 71dc33022a72cafd99d932dc0ca654b526a1b9c9
 .nav-item .nav-link {
     position: relative;
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 700;
     display:inline-block;
 }
 .nav-item .nav-link::after {
@@ -26,6 +119,12 @@
 .nav-item .nav-link.active::after,
 .nav-item .nav-link:hover::after {
     width: 100%;
+}
+@media (max-width:768px){
+  a.navbar-brand{
+  font-size: 20px;
+  font-weight: bold;
+  }
 }
 .dropdown .dropdown-menu {
   border-top: 0;
@@ -200,7 +299,6 @@ footer .icon i{
   font-size: 20px;
 }
 
-
 /*--------------------------------------- Page About -------------------------------------------------*/
 
 .titre-section1{
@@ -259,6 +357,7 @@ footer .icon i{
     }
 }
 
+<<<<<<< HEAD
 
 /*-------------------------------------- Page Blog -------------------------------------------------------*/
 
@@ -349,4 +448,47 @@ footer .icon i{
   padding: 2%;
   margin-top: 10%;
   margin-bottom: 5%;
+=======
+/*-- property single page--*/
+
+.nav .nav-item a{
+  color: black;
+}
+.sous-text{
+  width: 25%;
+  height: 5px;
+  background-color: #2eca6a;
+}
+.p-single i{
+  width: 50px;
+  margin-top: -10px;
+  margin-right: -10px;
+  padding: 5px;
+}
+#s-agent i{
+  font-size: 25px;
+  margin: 10px;
+}
+#s-agent .card{
+  border: none;
+}
+
+/*-- blog single--*/
+#b-single i{
+  padding: 10px;
+}
+#comment .sous-text{
+  width: 100px;
+  margin-left: 15px;
+}
+#comment .imga{
+  height: 80px;
+  width: 100px;
+  border: none;
+  border-radius: 0;
+}
+#comment .imga img{
+  width: 100%;
+  height: 100%;
+>>>>>>> 71dc33022a72cafd99d932dc0ca654b526a1b9c9
 }
