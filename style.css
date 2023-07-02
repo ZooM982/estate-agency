@@ -65,6 +65,37 @@ a.navbar-brand{
 .navbar span{
   color: #2eca6a;
 }
+
+.recherche{
+  background-color: #2eca6a;
+  width: 50px;
+  height: 50px;
+} 
+.recherche i{
+  color: black;
+  font-size: 35px;
+  padding: 10px;
+  
+}
+#exampleModal .title-box i{
+  text-decoration: none;
+  font-size: 60px;
+}
+#exampleModal .sous-text{
+  width: 100px;
+}
+
+#exampleModal .title-box{
+  margin: 30px;
+}
+
+#exampleModal .btn{
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+}
 .nav-item .nav-link {
     position: relative;
     font-size: 20px;
@@ -89,7 +120,7 @@ a.navbar-brand{
   a.navbar-brand{
   font-size: 20px;
   font-weight: bold;
-}
+  }
 }
 .dropdown .dropdown-menu {
   border-top: 0;
