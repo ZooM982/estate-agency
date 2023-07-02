@@ -6,9 +6,7 @@
   text-decoration: none;
   color: gray;
 }
-<<<<<<< HEAD
 /*-------------------------------------- navabar section-------------------------------------------------*/
-=======
 #carouselExampleAutoplaying .carousel-indicators .active{
   background-color: #2eca6a;
   width: 50px;
@@ -99,7 +97,6 @@ a.navbar-brand{
   height: 50px;
   margin: 20px;
 }
->>>>>>> 71dc33022a72cafd99d932dc0ca654b526a1b9c9
 .nav-item .nav-link {
     position: relative;
     font-size: 20px;
@@ -142,7 +139,7 @@ a.navbar-brand{
 }
 
 @media (min-width: 768px) {
- .dropdown .dropdown-menu {
+  .dropdown .dropdown-menu {
     border-top: 4px solid #2eca6a;
     border-left: 0;
     display: block;
@@ -357,7 +354,6 @@ footer .icon i{
     }
 }
 
-<<<<<<< HEAD
 
 /*-------------------------------------- Page Blog -------------------------------------------------------*/
 
@@ -448,7 +444,6 @@ footer .icon i{
   padding: 2%;
   margin-top: 10%;
   margin-bottom: 5%;
-=======
 /*-- property single page--*/
 
 .nav .nav-item a{
@@ -490,5 +485,4 @@ footer .icon i{
 #comment .imga img{
   width: 100%;
   height: 100%;
->>>>>>> 71dc33022a72cafd99d932dc0ca654b526a1b9c9
 }
