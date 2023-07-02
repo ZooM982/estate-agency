@@ -14,6 +14,45 @@
   height: 10px;
   width: 25px;
 }
+
+#agent .card{
+  transition: all 0.5s ease-in;
+  position: absolute;
+  bottom: 0px;
+  background-color: initial;
+  border: none;
+}
+
+#agent .card a{
+  color: white;
+  text-decoration: none;
+}
+
+#agent .card .price-box{
+  border: 1px solid #2eca6a;
+  border-radius: 100px;
+  width: 150px;
+}
+#agent .card .price-box .price{
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+}
+#agent .card .price-box .link-a{
+  font-size: 25px;
+}
+#agent .card .card-footer{
+  background-color: #2eca6a;
+  margin: 0;
+}
+
+#agent .card .card-footer h4{
+  font-size: 15px;
+}
+#agent .card .card-footer li{
+  margin: 9px;
+}
+
 /*-- navabar section---*/
 .navbar{
   height: 100px;
