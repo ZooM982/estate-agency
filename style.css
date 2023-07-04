@@ -6,7 +6,6 @@
   text-decoration: none;
   color: gray;
 }
-/*-------------------------------------- navabar section-------------------------------------------------*/
 #carouselExampleAutoplaying .carousel-indicators .active{
   background-color: #2eca6a;
   width: 50px;
@@ -120,6 +119,9 @@ a.navbar-brand{
   font-size: 20px;
   font-weight: bold;
   }
+  .navbar-nav{
+    background-color: white;
+  }
 }
 .dropdown .dropdown-menu {
   border-top: 0;
@@ -137,7 +139,7 @@ a.navbar-brand{
 }
 
 @media (min-width: 768px) {
-  .dropdown .dropdown-menu {
+ .dropdown .dropdown-menu {
     border-top: 4px solid #2eca6a;
     border-left: 0;
     display: block;
@@ -175,8 +177,8 @@ a.navbar-brand{
     height: 400px;
   }
 }
-/*------------------------------- navabar section exit------------------------------------------------------*/
-/*------------------------------- services section----------------------------------------------------------*/
+/*-- navabar section exit---*/
+/*-- services section---*/
 .card{
 	border: none;
 }
@@ -197,9 +199,9 @@ a.navbar-brand{
 	text-decoration: none;
 	color: black;
 }
-/*----------------------------------- services section exit-----------------------------------------------------*/
+/*-- services section exit---*/
 
-/*------------------------------------ latest property section--------------------------------------------------*/
+/*-- latest property section---*/
 .property .carousel-inner {
   padding: 1em;
 }
@@ -242,8 +244,8 @@ a.navbar-brand{
     height: 100%;
   }
 }
-/*----------------------------- latest property section exit------------------------------------------------*/
-/*----------------------------- best agent section----------------------------------------------------------*/
+/*-- latest property section exit---*/
+/*-- best agent section*/
 .img-responsive{
 	height: 400px;
 	width: 350px;
@@ -259,8 +261,8 @@ a.navbar-brand{
   text-decoration: none;
   color: gray;
 }
-/*------------------------------ best agent section exit----------------------------------------------------*/
-/*------------------------------ footer section-------------------------------------------------------------*/
+/*-- best agent section exit*/
+/*-- footer section*/
 footer a{
 	text-decoration: none;
 	color: black;
@@ -278,9 +280,9 @@ footer .icon i{
 	font-size: 25px;
 	margin-left: 25px;
 }
-/*------------------------------------- footer section exit------------------------------------------*/
+/*-- footer section exit*/
 
-/*------------------------------------- page contact-------------------------------------------------*/
+/*-- page contact--*/
 .icos i{
   font-size: 40px;
   margin-left: -40px;
@@ -352,100 +354,6 @@ footer .icon i{
     }
 }
 
-
-/*-------------------------------------- Page Blog -------------------------------------------------------*/
-
-.titre-blog{
-  border-left: 2px solid #2eca6a;
-  padding: 2%;
-}
-
-
-/*------------------------------- Slideshow Page d'Accueil --------------------------------------------------*/
-
-#slideshow{
-  display: flex;
-  justify-content: space-between;
-}
-
-#slideshow1{
-  width: 100%;
-}
-
-#slideshow1-img{
-  width: 100%;
-}
-
-#slideshow1-part{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  margin-left: -130px;
-}
-
-#slideshow1-sous-part2{
-  display: flex;
-  align-items: center;
-}
-
-#slideshow1-sous-part2 h4{
-  font-size: 1rem;
-  margin-left: 15px;
-}
-
-#slideshow1-sous-part2 img{
-  width: 20%;
-  border-radius: 50%;
-  height: 70px;
-}
-
-#slideshow1-sous-part1>p:nth-child(1) {
-  background-color: rgba(128, 128, 128, 0.329);
-  padding: 1%;
-  font-size: 14px;
-  font-style: italic;
-  color: grey;
-}
-
-#slideshow1-sous-part1 {
-  margin-top: 45%;
-}
-
-
-@media (max-width: 767px){
-  #carouselExampleIndicators{
-    display: flex;
-    flex-direction: column;
-  }
-
-  #slideshow{
-    flex-direction: column;
-  }
-
-  #slideshow1-img img{
-    width: 100%;
-  }
-  #slideshow1-part{
-    margin-left: 0;
-    width: 100%;
-  }
-  #slideshow1-sous-part1 {
-    margin-top: 15%;
-  }
-  #agent .agent-new{
-    display: none;
-  }
-}
-
-
-/*---------------- Agent-Simple ----------------------*/
-
-.section_agent .agent_immo{
-  border-left: 2px solid #2eca6a;
-  padding: 2%;
-  margin-top: 10%;
-  margin-bottom: 5%;
-}
 /*-- property single page--*/
 
 .nav .nav-item a{
@@ -489,8 +397,7 @@ footer .icon i{
   height: 100%;
 }
 
-
-.section_agent .sousligne{
+.section_agent .sousligne {
   border: 2px solid #2eca6a;
   width: 50px;
 }
