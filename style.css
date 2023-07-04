@@ -402,8 +402,16 @@ footer .icon i{
   width: 50px;
 }
 
-.agent_immo{
+.agent_immo {
+  border-left: 2px solid #2eca6a;
+  padding: 2%;
   margin-top: 6rem;
+  margin-bottom: 2%;
+}
+
+.titre-blog {
+  border-left: 2px solid #2eca6a;
+  padding: 2%;
 }
 
 #propriete {
