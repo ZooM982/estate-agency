@@ -15,51 +15,47 @@
 <!-- header section-->
 <header>
 <!-- navbar section-->
-<section class="pb-5">
-	<nav class="navbar fixed-top navbar-trans navbar-expand-lg p-4 fs-4 fw-bold shadow bg-white">
+<section>
+	<nav class="navbar navbar-expand-lg sticky-top bg-wight">
   		<div class="container-fluid">
-  			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       			<span class="navbar-toggler-icon"></span>
     		</button>
-    		<div class="contenaire-fluid mx-auto">
+    		<div class="contenaire mx-auto">
     			<a class="navbar-brand" href="#">Estate<span>Agency</span></a>
     		</div>
-    		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-      			<div class="mx-auto bg-white ">
-      				<ul class="navbar-nav">
-				        <li class="nav-item">
-				          <a class="nav-link active" href="index.html">Home</a>
-				        </li>
-				        <li class="nav-item">
-				          <a class="nav-link" href="about.html">About</a>
-				        </li>
-				        <li class="nav-item">
-				          <a class="nav-link" href="property.html">Property</a>
-				        </li>
-				        <li class="nav-item">
-				          <a class="nav-link" href="blog.html">Blog</a>
-				        </li>
-				        <li class="nav-item dropdown">
-				          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-				            Page
-				          </a>
-				          <ul class="dropdown-menu">
-				            <li><a class="dropdown-item" href="property-single.html">Property single</a></li>
-				            <li><a class="dropdown-item" href="blog-single.html">Blog single</a></li>
-				            <li><a class="dropdown-item" href="agent.html">Agent Grid</a></li>
-				            <li><a class="dropdown-item" href="agent-single.html">Agent single</a></li>
-				          </ul>
-				        </li>
-				        <li class="nav-item">
-				          <a class="nav-link" href="contact.html">Contact</a>
-				        </li>
-			    	</ul>
-      			</div>
-			    <div class="recherche">
-			    	<a href="#exampleModal" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
-			    </div>
-    		</div>
-  		</div>
+	    	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        	<li class="nav-item">
+						<a class="nav-link active" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+			 		</li>
+					<li class="nav-item">
+						<a class="nav-link" href="property.html">Property</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="blog.html">Blog</a>
+					</li>
+		        	<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Page</a>
+						<ul class="dropdown-menu">
+					  		<li><a class="dropdown-item" href="property-single.html">Property single</a></li>
+					  		<li><a class="dropdown-item" href="blog-single.html">Blog single</a></li>
+					  		<li><a class="dropdown-item" href="agent.html">Agent Grid</a></li>
+					  		<li><a class="dropdown-item" href="agent-single.html">Agent single</a></li>
+						</ul>
+					</li>
+		        	<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+	      		</ul>
+		      	<div class="recherche">
+					<a href="#exampleModal" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+				</div>
+	    	</div>
+		</div>
 	</nav>
 	<form class="col-md-6" role="search">  			
 	<!-- Modal -->
@@ -267,9 +263,8 @@
 <!-- services section exit-->
 <!-- latest property section-->
 <section id="latest-property" class="property">
-	<div class="best d-flex">
-		<h1>Latest properties</h1>
-		<a href="property.html" class="float-end">All property  <i class="fa-solid fa-angle-right"></i></a>
+	<div class="best">
+		<h1>Latest properties  <a href="property.html" class="float-end">All property  <i class="fa-solid fa-angle-right"></i></a></h1>
 	</div>
 	<div class="container mt-5">
 	<div id="carouselExampleAutoplaying" class="carousel" data-bs-ride="carousel">
@@ -351,12 +346,9 @@
 <!-- latest property section exit-->
 <!-- best agent section-->
 <section id="agent">
-	<div class="best col-md-12 d-flex">
+	<div class="best">
 		<div>
-			<h1>Best agent</h1>
-		</div>
-		<div>
-			<a href="agent.html" class="align-self-end">All agent  <i class="fa-solid fa-angle-right"></i></a>
+			<h1>Best agent <a href="agent.html" class="float-end">All agent  <i class="fa-solid fa-angle-right"></i></a></h1>
 		</div>
 	</div>
 	<div class="container mt-5 ">
@@ -386,6 +378,119 @@
     </div>
 </section>
 <!-- best agent section exit-->
+
+<!-- lastest news-->
+<section id="latest-news" class="news mb-4">
+	<div class="best">
+		<h1>Latest News  <a href="blog.html" class="float-end">All news<i class="fa-solid fa-angle-right"></i></a></h1>
+	</div>
+	<div class="container mt-5">
+	<div id="carouselExampleAutoplaying" class="carousel" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+  		</div>
+    	<div class="carousel-inner">
+        	<div class="carousel-item active">
+            	<div class="card">
+                	<div class="img-wrapper"><img src="images/post-1.jpg" class="d-block w-100" alt="..."> </div>
+            	</div>
+        	</div>
+	        <div class="carousel-item">
+	            <div class="card">
+	                <div class="img-wrapper"><img src="images/post-2.jpg" class="d-block w-100" alt="..."> </div>
+	            </div>
+	        </div>
+	        <div class="carousel-item">
+	            <div class="card">
+	                <div class="img-wrapper"><img src="images/post-3.jpg" class="d-block w-100" alt="..."> </div>               
+	            </div>
+	        </div>
+	        <div class="carousel-item">
+	            <div class="card">
+	                <div class="img-wrapper"><img src="images/post-4.jpg" class="d-block w-100" alt="..."> </div>               
+	            </div>
+	        </div>
+	        <div class="carousel-item">
+	            <div class="card">
+	                <div class="img-wrapper"><img src="images/post-5.jpg" class="d-block w-100" alt="..."> </div>
+	            </div>
+	        </div>
+	        <div class="carousel-item">
+	            <div class="card">
+	                <div class="img-wrapper"><img src="images/post-6.jpg" class="d-block w-100" alt="..."> </div>               
+	            </div>
+	        </div>
+	        <div class="carousel-item">
+	            <div class="card">
+	                <div class="img-wrapper"><img src="images/post-7.jpg" class="d-block w-100" alt="..."> </div>
+	            </div>
+	        </div>
+    	</div>
+	    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+	        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	        <span class="visually-hidden">Previous</span>
+	    </button>
+	    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+	        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	        <span class="visually-hidden">Next</span>
+	    </button>
+	</div>
+	</div>
+</section>
+<!-- lastest news exit-->
+
+<!-- testimonies-->
+<section id="testimonial" class="py-5">
+	<div class="container">
+		<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+	    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	    		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	  		</div>
+	  		<div class="carousel-inner">
+	    		<div class="carousel-item active">
+	      			<div class="row test1">
+						<div class="col-md-5">
+							<img src="images/testimonial-1.jpg" style="width:500px;">
+						</div>
+						<div class="col-md-5 mx-auto">
+							<p class="col-md-2 mx-auto"><i class="fa-solid fa-comment" style="font-size: 50px; color: #2eca6a;"></i></p>
+							<p class="py-3 bg-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium debitis hic ber quibusdam voluptatibus officia expedita corpori.</p>
+							<p class="py-4"><img src="images/testimonial-1.jpg" style="width:80px;height: 80px;border-radius: 100px;">&emsp;<strong>Albert & Erika</strong></p>
+						</div>
+					</div>
+	    		</div>
+	    		<div class="carousel-item">
+	      			<div class="row test2">
+						<div class="col-md-5">
+							<img src="images/testimonial-2.jpg" style="width:500px;">
+						</div>
+						<div class="col-md-5 mx-auto">
+							<p class="col-md-2 mx-auto"><i class="fa-solid fa-comment" style="font-size: 50px; color: #2eca6a;"></i></p>
+							<p class="py-3 bg-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium debitis hic ber quibusdam voluptatibus officia expedita corpori.</p>
+							<p class="py-4"><img src="images/testimonial-2.jpg" style="width:80px;height: 80px;border-radius: 100px;">&emsp;<strong>Pablo & Emma</strong></p>
+						</div>
+					</div>
+	    		</div>
+	  		</div>
+	  		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+	    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    		<span class="visually-hidden">Previous</span>
+	  		</button>
+	  		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+	    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    		<span class="visually-hidden">Next</span>
+	  		</button>
+		</div>
+	</div>
+</section>
+<!-- testimonies-->
 </main>
 <!-- main section exit-->
 <!-- footer section-->
